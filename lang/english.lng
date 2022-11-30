@@ -1,20 +1,19 @@
 ﻿##grflangid 0x00
 
 # GRF name and description
-STR_GRF_NAME                                        :MESet 
-STR_GRF_NAME_WITH_VER                               :MESet {VERSION}
-STR_GRF_DESC                                        :(Updated: {RECENT_UPDATED}{}{}{SILVER} coded By : ME Making {}{} Sprite By :{} Las{} 그날트리{} 킹거{} Dat Tree{} Gamunbi{ } GBLINER{} 죽전와니{} POKERFACE{}
+STR_GRF_NAME_WITH_VER                               :Virtual Derivative Train Set {VERSION}
+STR_GRF_DESC                                        :Virtual Derivative Train Set
+STR_GRF_URL                                         :https://github.com/DTS-NewGRF/VDTS
 
 # locomotive's name
-STR_Glory_600_NAME                                  :[MES] Glory 600
-STR_HMX_NAME                                        :[MES] HMX
-STR_ICE_KR_NAME                                     :[MES] ICE-KR
-STR_MET_NAME                                        :[MES] MET
-STR_NKX_NAME                                        :[MES] NKX
-STR_N700_KR_NAME                                    :[MES] N700 KR
+STR_Glory_600_NAME                                  :[VDTS] Glory 600
+STR_HMX_NAME                                        :[VDTS] HMX
+STR_ICE_NAME                                        :[VDTS] ICE
+STR_N700_NAME                                       :[VDTS] N700
+STR_NKX_NAME                                        :[VDTS] NKX
 
 # wagon's name
-STR_MES_PASS_NAME                                   :[MES] Passenger Car
+STR_VDTS_PASS_NAME                                  :[VDTS] Passenger Car
 
 # Parameters
 STR_PARAM_Regular_SPEED_Train_NAME                  :Regular Train Speed Variable
@@ -25,22 +24,13 @@ STR_PARAM_High_SPEED_Train_DESC                     :Adjust the speed of the hig
 # Refit (Additional text) Real Trian(BLUE), Test Train(YELLOW), Plan Train(PURPLE), Virtual Train(RED)
 STR_REFIT_ADDITIONAL_Glory600                       :{BLACK}Existence of trains : {RED}Virtual Train {}{BLACK}Changing model/livery: {GREEN}Available {}{BLACK}Combined train: {GREEN}Glory-600
 STR_REFIT_ADDITIONAL_HMX                            :{BLACK}Existence of trains : {RED}Virtual Train {}{BLACK}Changing model/livery: {GREEN}Available {}{BLACK}Combined train: {GREEN}HMX
-STR_REFIT_ADDITIONAL_ICE_KR                         :{BLACK}Existence of trains : {RED}Virtual Train {}{BLACK}Changing model/livery: {GREEN}available {}{BLACK}Combined train: {GREEN}ICE-KR
-STR_REFIT_ADDITIONAL_MET                            :{BLACK}Existence of trains : {RED}Virtual Train {}{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train: {GREEN}YTX
+STR_REFIT_ADDITIONAL_ICE                            :{BLACK}Existence of trains : {RED}Virtual Train {}{BLACK}Changing model/livery: {GREEN}available {}{BLACK}Combined train: {GREEN}ICE
+STR_REFIT_ADDITIONAL_N700                           :{BLACK}Existence of trains : {RED}Virtual Train {}{BLACK}Changing model/livery: {GREEN}available {}{BLACK}Combined train: {RED}Unavailable
 STR_REFIT_ADDITIONAL_NKX                            :{BLACK}Existence of trains : {RED}Virtual Train {}{BLACK}Changing model/livery: {GREEN}available {}{BLACK}Combined train: {GREEN}NKX
-STR_REFIT_ADDITIONAL_N700_KR                        :{BLACK}Existence of trains : {RED}Virtual Train {}{BLACK}Changing model/livery: {GREEN}available {}{BLACK}Combined train: {RED}Unavailable
 
 STR_REFIT_train_configuration                       :{BLACK}train configuration: {GREEN}passenger vehicles
 
 # # Liveries locomotive
-STR_REFIT_LIVERY_Glory600A                          :(Glory 600 A Color)
-STR_REFIT_LIVERY_Glory600B                          :(Glory 600 B Color)
-STR_REFIT_LIVERY_Glory600C                          :(Glory 600 C Color)
-STR_REFIT_LIVERY_Glory600D                          :(Glory 600 D Color)
-STR_REFIT_LIVERY_Glory600E                          :(Glory 600 E Color)
-STR_REFIT_LIVERY_HMXG                               :(HMX Green Color)
-STR_REFIT_LIVERY_HMXR                               :(HMX Red Color)
 
 # Errors
 STR_ERROR_NO_ATTACH                                 :You can't attach this car here
-STR_ERROR_NOT_ENOUGH_LENGTH6                        :It's too short. It should be equal or more than 6 cars at least.

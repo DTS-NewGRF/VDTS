@@ -1,26 +1,22 @@
-# MESet 자료
-  본 자료는 인게임 온라인 컨텐츠에 공개되어 업데이트 되는 것이 아닌 개인 소장용의 GRF로 보관하려는 목적이 강합니다.
-  때문에, 개인적으로 필요시에만 업데이트가 진행되지만, 거이 업데이트는 되지 않을 것입니다.
+# Virtual Derivative Train Set 가상 파생형 열차세트
+**가상 파생형 열차세트**는 기존 운영되는 GRF의 열차 선형과 선형에 포함된 열차세트 외의 자유로운 도색이 적용된 OpenTTD NewGRF입니다.  
+게임 비온라인 컨텐츠로서, 게임내 온라인 콘텐츠에서는 다운로드가 공개되지 않습니다.  
+[Github release 페이지](https://github.com/DTS-NewGRF/VDTS/releases)에서 다운로드할 수 있습니다.
+
+## 포함 조건
+### 타 열차세트의 선형을 그대로 이용해야 한다.
+제작 당시의 기존 열차 선형을 그대로 유지하여야 한다. 물론 제작 이후 업데이트로 선형이 바뀌어도 바뀐 디자인을 새로 적용해도 가능하다.
+### 선형을 사용한 GRF의 도색은 일체 사용해서는 안된다.
+사용한 선형열차세트에 포함된 도색은 사용하지 않지만, 선형외 도색을 자유롭게 적용한 것이여야 한다.
+### 이슈자료 등록시 어느 GRF의 선형을 가지고 왔는지 확실히 제공해야 한다.
+기존 자료를 그대로 활용하는 것이 기본적인 컨셉이기 때문에, 해당 기본 자료의 출처 (링크)는 필수적인 사항이다.
+
+## 개발
+### 빌드하는 방법
+이 NewGRF를 빌드하려면 [NML](https://github.com/OpenTTD/nml)과 **Python 3**이 필요합니다.  
+터미널 쉘에서 ``make``를 실행하세요. Windows 환경이라면, 그 전에 명령 프롬포트를 열고 ``bash``를 입력하세요.  
+``make clean``을 입력하면 모든 생성된 파일이 초기화됩니다.
 
 ## 저작권
- CC-BY-NC-SA v3.0 : 비영리조건이며, 스프라이트를 제공한 뒤엔 얼마든지 수정할 수 있습니다.<br>
-
-## 컴퍼일
-makefile, [nml0.6.1](https://github.com/OpenTTD/nml) 등의 최신버전을 사용합니다.<br>
-
-## 열차목록
-- Glory 600<br>
-![Glory 600](https://user-images.githubusercontent.com/55119879/162143457-225a7335-c94e-45dc-8e4b-1c5148769a35.png)
-- MET<br>
-![MET](https://user-images.githubusercontent.com/55119879/162600625-dfbd8a60-a35d-4c19-a5cf-805603f3737b.png)
-- ICE-KR<br>
-![ICE-KR](https://user-images.githubusercontent.com/55119879/162548254-9afd336b-6320-45df-9dea-59aa2dbbf76a.png)
-- N700-KR<br>
-![N700KR](https://user-images.githubusercontent.com/55119879/162550277-dbbc2fd1-b4d3-4e69-9ea6-0e61a4c6df45.png)
-- HMX<br>
-![HMX](https://user-images.githubusercontent.com/55119879/162126852-894119b2-f2bf-4d5a-9bc3-c0c9e179c06c.png)
-- NKX<br>
-![NKX](https://user-images.githubusercontent.com/55119879/162126855-249b0ab0-f963-40b5-82fd-769faa05710a.png)
-
-※ 기존 자료 YST에서 분리되어 나온 열차들입니다.
-- ICE-KR (YST내 ICE-SP) / MET (YST 내 YTX) 열차이름이 변경적용됨.
+이 NewGRF는 크리에이티브 커먼스 라이선스 v3.0 (CC-BY-NC-SA v3.0)을 따릅니다. <br>
+이 프로젝트에 기여함은 이 라이선스에 동의함을 의미합니다.

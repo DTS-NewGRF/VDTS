@@ -10,9 +10,9 @@
 /*--------------------------------------------------------------------
 열차정보
 --------------------------------------------------------------------*/
-item (FEAT_TRAINS, MES_Passenger_Car, 1000){
+item (FEAT_TRAINS, VDTS_Passenger_Car, 9002){
     property {
-        name:                           string(STR_MES_PASS_NAME);
+        name:                           string(STR_VDTS_PASS_NAME);
         climates_available:             ALL_CLIMATES;
         introduction_date:              date(2020, 1, 1);
         track_type:                     RAIL;

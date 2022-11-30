@@ -1,18 +1,18 @@
 /*--------------------------------------------------------------------
-ICE-SP
+신칸센 500계
 --------------------------------------------------------------------*/
 // Graphics
-#include "ICE_KR_graphic.pnml"
+#include "N700_graphic.pnml"
 
 // Switch
-#include "ICE_KR_switch.pnml"
+#include "N700_switch.pnml"
 
 /*--------------------------------------------------------------------
 열차정보
 --------------------------------------------------------------------*/
-item(FEAT_TRAINS, ICE_KR, 1005){
+item(FEAT_TRAINS, N700, 9006){
     property {
-        name:                           string(STR_ICE_KR_NAME);
+        name:                           string(STR_N700_NAME);
         climates_available:             ALL_CLIMATES;
         introduction_date:              date(2020, 1, 1);
         track_type:                     RAIL;
@@ -35,7 +35,7 @@ item(FEAT_TRAINS, ICE_KR, 1005){
         reliability_decay:              0;
         
         //Cargo
-        cargo_capacity:                 30;
+        cargo_capacity:                 53;
         refittable_cargo_classes:       NO_CARGO_CLASS;
         non_refittable_cargo_classes:   NO_CARGO_CLASS;
         cargo_allow_refit:              [PASS];
@@ -46,25 +46,24 @@ item(FEAT_TRAINS, ICE_KR, 1005){
         running_cost_base:              RUNNING_COST_ELECTRIC;
         
         //Flags
-        misc_flags:                     bitmask(TRAIN_FLAG_FLIP, TRAIN_FLAG_AUTOREFIT);
+        misc_flags:                     bitmask(TRAIN_FLAG_FLIP,TRAIN_FLAG_MU, TRAIN_FLAG_AUTOREFIT);
         extra_weight_per_wagon:         35 ton;
         }
         
     graphics {
-        default:                        sw_ICE_KR_engine;
-        purchase:                       sw_ICE_KR_purchase;
+        default:                        sw_N700_engine;
+        purchase:                       sw_N700_purchase;
         speed:                          High_Speed_Train;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
-        can_attach_wagon:               sw_ICE_KR_wagon_attach;
-        start_stop:                     sw_YST_train_start_stop_6;
-        additional_text:                string(STR_REFIT_ADDITIONAL_ICE_KR);
+        can_attach_wagon:               sw_N700_wagon_attach;
+        additional_text:                string(STR_REFIT_ADDITIONAL_N700);
         }
-
-    livery_override(MES_Passenger_Car) {
-        default:                        sw_ICE_KR_wagon;
-        cargo_capacity:                 50;
+        
+    livery_override(VDTS_Passenger_Car) {
+        default:                        sw_N700_wagon;
+        cargo_capacity:                 100;
         loading_speed:                  25;
         running_cost_factor:            100;
         }

@@ -2,12 +2,11 @@
 #include "wagon/passenger_wagon/passenger_wagon.pnml"
 
 //locomotive
-#include "locomotive/NKX/NKX.pnml"
-#include "locomotive/HMX/HMX.pnml"
-#include "locomotive/ICE_KR/ICE_KR.pnml"
-#include "locomotive/N700_KR/N700_KR.pnml"
-#include "locomotive/MET/MET.pnml"
 #include "locomotive/Glory_600/Glory_600.pnml"
+#include "locomotive/HMX/HMX.pnml"
+#include "locomotive/ICE/ICE.pnml"
+#include "locomotive/N700/N700.pnml"
+#include "locomotive/NKX/NKX.pnml"
 
 // Sorting
 #include "sort.pnml"

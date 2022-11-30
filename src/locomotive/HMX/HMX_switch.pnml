@@ -13,6 +13,6 @@ switch(FEAT_TRAINS, SELF, sw_HMX_wagon, position_in_consist) {
 
 switch(FEAT_TRAINS, SELF, sw_HMX_wagon_attach, vehicle_type_id) {
     HMX:                    return CB_RESULT_ATTACH_ALLOW;
-    MES_Passenger_Car:      return CB_RESULT_ATTACH_ALLOW;
+    VDTS_Passenger_Car:     return CB_RESULT_ATTACH_ALLOW;
     return string(STR_ERROR_NO_ATTACH);
 }
